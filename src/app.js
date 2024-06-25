@@ -13,9 +13,9 @@ let when = [
   "when I was sleeping",
   "while I was exercising",
   "during my lunch",
-  "while I was praying",
+  "while I was praying"
 ];
-const random = (array) => {
+const random = array => {
   return array[Math.floor(Math.random() * array.length)];
 };
 const excuse = document.querySelector(".excuse");
